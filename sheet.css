@@ -1,0 +1,228 @@
+
+* {
+    box-sizing: border-box;
+  }
+
+
+
+
+*{
+  margin:0;
+  padding:0;
+}
+
+
+
+.box{
+  height:30px;
+  display:flex;
+  cursor:pointer;
+  padding:10px 20px;
+  background:whitesmoke;
+  border-radius:30px;
+  align-items:center;
+  box-shadow:0 10px 25px rgba(0,0,0,0.3);
+  width:50%;
+  margin-left: 5em;
+}
+
+.box:hover input{
+  width:400px;
+  
+}
+
+.box input{
+  width:0;
+  outline:black;
+  border:black;
+  font-weight: 500;
+  transition: 0.8s;
+  background:transparent ;
+
+}
+
+
+
+.logo{
+font-size: 1.5rem;
+font-weight: bolder;
+}
+
+
+span{
+  color: orangered;
+}
+
+nav{
+  display:flex;
+  justify-content: space-between;
+  margin:2em;
+}
+
+
+.navbar_links ul{
+  display:flex;
+  padding:0;
+  margin:0;
+}
+
+.navbar_links li{
+  list-style: none;
+}
+
+.navbar_links li a{
+  text-decoration: none;
+  padding:0.9em;
+  display: block;
+  color:rgb(162, 132, 132);
+  font-size: 0.9rem;
+}
+
+.navbar_links li a:hover{
+  color:orangered;
+  transition: 0.6s;
+}
+
+
+.row{
+  display:flex;
+}
+
+.nicky_shoe{
+  align-self:flex-start;
+  width:50%;
+  margin-left: 1.2em;
+}
+
+
+.wrapper_shoe{
+  align-self:flex-start;
+  width:46.5%;
+}
+
+
+.yellow_shoe{
+  align-self:flex-start;
+  width:39.4%;
+  margin-left: 8em;
+}
+
+
+.green_shoe{
+  align-self:flex-start;
+  width:90%;
+}
+
+button{
+  background:rgb(126, 207, 126);
+  border-radius: 0.5em;
+  border: none;
+  padding:10px 10px;
+  cursor: pointer;
+  margin-left: 10em;
+ }
+ 
+ button:hover{
+  background:rgb(57, 56, 56);
+  transition: 0.5s;
+ }
+
+ .bar{
+  margin: 1em;
+  padding:2em;
+  background:rgb(57, 56, 56);
+  text-align: center;
+  font-size: 1.3rem;
+  color: antiquewhite;
+ }
+
+ .new_text{
+  flex-direction: column;
+  text-align: center;
+ }
+
+ .new_text h1{
+  font-size: 1.3rem;
+ }
+
+ .second{
+  gap:3em;
+  margin:5em;
+ }
+
+
+ .footer{
+  background:rgb(0, 0, 0);
+  
+ }
+
+ .foot{
+  gap:25em;
+  margin-left: 3em;
+ }
+
+ .footer ol li{
+  padding:0.3em;
+ }
+ 
+ 
+.footer ol li a{
+  text-decoration: none;
+  color:white;
+}
+
+.footer ol li a:hover{
+  color:red;
+}
+
+
+
+.emmanuel{
+  align-self: flex-start;
+  width:50%;
+}
+
+
+@media(max-width:900px){
+  .row{
+    flex-direction: column;
+  }
+  .nicky_shoe{
+    width:100%;
+    margin-left: 0em;
+  }
+
+  .wrapper_shoe{
+    width:100%;
+  }
+
+.yellow_shoe{
+  width:100%;
+  margin-left: 0em;
+}
+  .green_shoe{
+    width:100%;
+  }
+
+  .navbar_links ul{
+    display: block;
+  }
+
+  .navbar_links ul li a{
+    padding:0.4em;
+  }
+
+  .foot{
+    gap:5em;
+    margin-left: 8em;
+
+  }
+
+
+}
+
+
+@media(max-width:500px){
+ 
+}
+
